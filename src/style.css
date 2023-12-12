@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+.container{
+    width: 50vw;
+    height: 55vh;
+    margin-top: 10%;
+    margin-left: 25%;
+    
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    
+    background-color: #efeded;
+    border: none;
+    border-radius: 15px;  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.informacaoHeroi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.saidaHeroi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 10.2rem;
+    height: 10.5rem;
+    margin-bottom: 0.5rem;
+}
+
+label{
+    margin-bottom: 0.4rem;
+}
+
+#btnEnviar{
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    padding: 5px;
+    background-color: #c3ccd6;
+    cursor: pointer;
+}
+
+#btnEnviar:hover{
+    background-color: #A8B1BB; 
+    font-size: 10.5px;
+    box-shadow: 5px 5px 10px;
+}
+
+p{
+    color: rgb(38, 38, 97);
+}

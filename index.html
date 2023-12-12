@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis</title>
+    
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">        
+        <h1>Seletor de Heróis</h1>
+        <br><br>
+        <div class="informacaoHeroi">
+            <div class="entradaHeroi">
+                <label>Informe o nome do herói</label><br>
+                <input type="text" placeholder="Nome do herói" id="nomeHeroi">
+                <br><br>
+                        
+                <label>Escolha o herói </label><br>
+                <select name="tipoHero" id="tipoHero">
+                    <option value="mago">Mago</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="ninja">Ninja</option>
+                    <option value="arqueiro">Arqueiro</option>
+                    <option value="viking">Viking</option>
+                    <option value="tech">Sci-Fi Herói</option>
+                  </select>           
+                <br><br>
+                
+                <button onclick="enviarDados()" id="btnEnviar">Enviar</button>
+                <br>
+            </div>
+    
+    
+            <div class="saidaHeroi">
+                <h3 id="nomeHeroiFornecido"></h3>
+                <img id="imagemHeroi">
+                <p id="resultado"></p>
+                <!-- Imagem de Annette por Pixabay -->
+            </div>
+        </div>
+        <br><br><br>
+        <h6>Imagens de Annette por Pixabay</h6>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
